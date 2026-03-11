@@ -46,6 +46,12 @@ model = DecisionTreeRegressor(
     max_depth=3,
     random_state=42
 )
+
+
+
+
+
+
 model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
 mse = mean_squared_error(y_test, y_pred)
@@ -60,6 +66,13 @@ plot_tree(
     feature_names=["Level"],
     filled=True
 )
+
+
+
+
+
+
+
 plt.title("Decision Tree Regressor for Employee Salary Prediction")
 plt.show()
 new_exp = [[5]]
