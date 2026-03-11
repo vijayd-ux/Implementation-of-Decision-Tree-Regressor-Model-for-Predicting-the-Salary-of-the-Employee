@@ -13,16 +13,6 @@ To write a program to implement the Decision Tree Regressor Model for Predicting
 3. Train the model
 4. Predict and Evaluate
 
-
-
-
-
-
-
-
-
-
-
 ## Program:
 ```
 /*
@@ -39,6 +29,12 @@ import matplotlib.pyplot as plt
 df = pd.read_csv("Salary.csv")
 print("Dataset Preview:")
 print(df.head())
+
+
+
+
+
+
 
 X = df[["Level"]]   
 y = df["Salary"]     
